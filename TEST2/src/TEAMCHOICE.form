@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TEAMCHOICE">
+  <grid id="27dc6" binding="FlowLayout" layout-manager="FlowLayout" hgap="10" vgap="10" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="2602" height="664"/>
+    </constraints>
+    <properties>
+      <background color="-15858640"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="330a7" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <background color="-1711644"/>
+          <font name="Agency FB" size="24" style="1"/>
+          <foreground color="-1711644"/>
+          <text value="CHOOSE A TEAM"/>
+        </properties>
+      </component>
+      <component id="91a0c" class="javax.swing.JButton" binding="ARSENALButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-14930896"/>
+          <foreground color="-1711644"/>
+          <hideActionText value="true"/>
+          <text value="ARSENAL "/>
+        </properties>
+      </component>
+      <component id="724d2" class="javax.swing.JButton" binding="AFCBOURNEMOUTHButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1778971"/>
+          <hideActionText value="true"/>
+          <text value="AFC BOURNEMOUTH"/>
+        </properties>
+      </component>
+      <component id="e2341" class="javax.swing.JButton" binding="BRENTFORDButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="BRENTFORD"/>
+        </properties>
+      </component>
+      <component id="46465" class="javax.swing.JButton" binding="BRIGHTONButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="BRIGHTON "/>
+        </properties>
+      </component>
+      <component id="a86a" class="javax.swing.JButton" binding="CHELSEAButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <hideActionText value="true"/>
+          <text value="CHELSEA"/>
+        </properties>
+      </component>
+      <component id="1efe5" class="javax.swing.JButton" binding="CRYSTALPALACEButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="CRYSTAL PALACE"/>
+        </properties>
+      </component>
+      <component id="31b84" class="javax.swing.JButton" binding="EVERTONButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="EVERTON"/>
+        </properties>
+      </component>
+      <component id="857a5" class="javax.swing.JButton" binding="FULHAMButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="FULHAM"/>
+        </properties>
+      </component>
+      <component id="31c4e" class="javax.swing.JButton" binding="IPSWICHTOWNButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="IPSWICH TOWN"/>
+        </properties>
+      </component>
+      <component id="ef451" class="javax.swing.JButton" binding="LIVERPOOLButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="LIVERPOOL"/>
+        </properties>
+      </component>
+      <component id="e8270" class="javax.swing.JButton" binding="MANCITYButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="MAN CITY"/>
+        </properties>
+      </component>
+      <component id="37f53" class="javax.swing.JButton" binding="MANUNITEDButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="MAN UNITED"/>
+        </properties>
+      </component>
+      <component id="89ca4" class="javax.swing.JButton" binding="NEWCASTLEUNITEDButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="NEWCASTLE UNITED"/>
+        </properties>
+      </component>
+      <component id="c1f77" class="javax.swing.JButton" binding="NOTTINGHAMFORESTButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="NOTTINGHAM FOREST"/>
+        </properties>
+      </component>
+      <component id="93c34" class="javax.swing.JButton" binding="SOUTHAMPTONButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="SOUTHAMPTON"/>
+        </properties>
+      </component>
+      <component id="b30a0" class="javax.swing.JButton" binding="TOTTENHAMButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <hideActionText value="true"/>
+          <text value="TOTTENHAM "/>
+        </properties>
+      </component>
+      <component id="d7c47" class="javax.swing.JButton" binding="WESTHAMButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="WEST HAM"/>
+        </properties>
+      </component>
+      <component id="887b6" class="javax.swing.JButton" binding="WOLVESButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="WOLVES"/>
+        </properties>
+      </component>
+      <component id="6f4b2" class="javax.swing.JButton" binding="ASTONVILLAButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16765136"/>
+          <foreground color="-1711644"/>
+          <text value="ASTON VILLA"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
