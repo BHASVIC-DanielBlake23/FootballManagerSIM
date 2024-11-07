@@ -15,10 +15,10 @@ public class STARTSCREEN extends JFrame {
 
 
     public static void main(String[] args) {
-        STARTSCREEN h= new STARTSCREEN();
+        STARTSCREEN h = new STARTSCREEN();
         h.setContentPane(h.mainPanel);
         h.setTitle("Football manager SIM");
-        h.setSize(600,1800);
+        h.setSize(4000,3000);
         h.setDefaultCloseOperation(EXIT_ON_CLOSE);
         h.setVisible(true);
 

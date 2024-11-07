@@ -38,12 +38,36 @@ public class TEAMCHOICE extends JFrame {
                 }
 
         }
+        public class bournemouthClass {
+                public static void main(String[] args) {
+                        //CALL METHOD FROM OTHER GUI
+                        BournemouthMenu();
+                }
+
+                public static void BournemouthMenu() {
+
+                        BournemouthMenu bournemouthMenu = new BournemouthMenu();
+                }
+
+        }
+        public class villaClass {
+                public static void main(String[] args) {
+                        //CALL METHOD FROM OTHER GUI
+                        VillaMenu();
+                }
+
+                public static void VillaMenu() {
+
+                        VillaMenu villaMenu = new VillaMenu();
+                }
+
+        }
 
     public TEAMCHOICE() {
             setTitle("Team Choice");
             setContentPane(FlowLayout);
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            setSize(400, 300);
+            setSize(4000, 3000);
             setVisible(true);
             ARSENALButton.addActionListener(new ActionListener() {
                     @Override
@@ -54,9 +78,18 @@ public class TEAMCHOICE extends JFrame {
             });
 
 
-
-
-
+            AFCBOURNEMOUTHButton.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                            bournemouthClass.BournemouthMenu();
+                    }
+            });
+            ASTONVILLAButton.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                            villaClass.VillaMenu();
+                    }
+            });
     }
 
 
