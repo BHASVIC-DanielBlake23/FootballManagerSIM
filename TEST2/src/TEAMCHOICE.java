@@ -38,6 +38,18 @@ public class TEAMCHOICE extends JFrame {
                 }
 
         }
+        public class brentfordClass {
+                public static void main(String[] args) {
+                        //CALL METHOD FROM OTHER GUI
+                        BrentfordMenu();
+                }
+
+                public static void BrentfordMenu() {
+
+                        BrentfordMenu brenmenu = new BrentfordMenu();
+                }
+
+        }
         public class bournemouthClass {
                 public static void main(String[] args) {
                         //CALL METHOD FROM OTHER GUI
@@ -50,6 +62,7 @@ public class TEAMCHOICE extends JFrame {
                 }
 
         }
+
         public class villaClass {
                 public static void main(String[] args) {
                         //CALL METHOD FROM OTHER GUI
@@ -74,8 +87,12 @@ public class TEAMCHOICE extends JFrame {
                     public void actionPerformed(ActionEvent e) {
                             secondClass.MainMenuGUI();
 
+
+
                     }
             });
+
+
 
 
             AFCBOURNEMOUTHButton.addActionListener(new ActionListener() {
@@ -88,6 +105,12 @@ public class TEAMCHOICE extends JFrame {
                     @Override
                     public void actionPerformed(ActionEvent e) {
                             villaClass.VillaMenu();
+                    }
+            });
+            BRENTFORDButton.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                            brentfordClass.BrentfordMenu();
                     }
             });
     }

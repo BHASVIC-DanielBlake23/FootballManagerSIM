@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BrentfordMenu">
+  <grid id="27dc6" binding="brmenu" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="509b6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Football Manager SIM"/>
+        </properties>
+      </component>
+      <component id="cc412" class="javax.swing.JButton" binding="ATTACKINGoneButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ATTACKING"/>
+        </properties>
+      </component>
+      <component id="c3dc0" class="javax.swing.JButton" binding="balancedbutton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BALANCED"/>
+        </properties>
+      </component>
+      <component id="5859b" class="javax.swing.JButton" binding="defensivebutton">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DEFENSIVE"/>
+        </properties>
+      </component>
+      <component id="2cd83" class="javax.swing.JLabel" binding="brlabe5">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="TACTICS"/>
+        </properties>
+      </component>
+      <component id="53f18" class="javax.swing.JLabel" binding="brlabel1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BRENTFORD STATS :"/>
+        </properties>
+      </component>
+      <component id="fa025" class="javax.swing.JLabel" binding="brlabel2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ATTACK LEVEL 3*"/>
+        </properties>
+      </component>
+      <component id="89480" class="javax.swing.JLabel" binding="brlabel3">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MIDFIELD LEVEL 2*"/>
+        </properties>
+      </component>
+      <component id="ebd38" class="javax.swing.JButton" binding="PLAYButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="PLAY"/>
+        </properties>
+      </component>
+      <component id="f6e1a" class="javax.swing.JLabel" binding="bbrbr">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="FORMATION"/>
+        </properties>
+      </component>
+      <component id="24a08" class="javax.swing.JLabel" binding="brlabe4">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DEFENSE LEVEL 2*"/>
+        </properties>
+      </component>
+      <component id="597b" class="javax.swing.JButton" binding="ye">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="4-4-2"/>
+        </properties>
+      </component>
+      <component id="a9cd2" class="javax.swing.JButton" binding="yes">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="5-3-2"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

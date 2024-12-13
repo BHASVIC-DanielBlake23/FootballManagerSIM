@@ -3,9 +3,9 @@ public class Brighton {
         String[] brightonPlayers=new String[10];
         brightonPlayers[0] = " Bart Verbruggen ";
         brightonPlayers[1] = " Pervis Estupinan ";
-        brightonPlayers[2] = " Igor";
+        brightonPlayers[2] = " Van Hecke";
         brightonPlayers[3] = " Lewis Dunk";
-        brightonPlayers[4] = "Tariq Lamptey";
+        brightonPlayers[4] = "Joel Veltman";
         brightonPlayers[5] = " Mats Wieffer ";
         brightonPlayers[6] = " Carlos Baleba ";
         brightonPlayers[7] = " Georginio Rutter";
